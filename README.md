@@ -42,7 +42,9 @@
 │               └── install_requirements.yaml
 ```
 
--- To do Install haproxy (use xavki tutoriel)
+To do 
+
+-- Install haproxy (use xavki tutoriel)
 
 -- complete all tasks in playbook
 
