@@ -1,6 +1,5 @@
 # LB_haproxy
 ```
-│       └── Dockerfile
 ├── LB_haproxy
 │   ├── ansible.cfg
 │   ├── group_vars
