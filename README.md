@@ -49,3 +49,5 @@ To do
 -- complete all tasks in playbook
 
 -- Finalise the load balancing between servers
+
+-- Creation de la page d'accueil du site devops-jug.com  (HTML & CSS)
