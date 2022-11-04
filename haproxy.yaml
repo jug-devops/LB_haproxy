@@ -1,0 +1,17 @@
+---
+## Le playbook d'installation de tous les paquets du site devops-jug
+
+- name: Déploiement site jugurta 
+  hosts: apache
+  roles:
+    - { role: packages }
+    - { role: apache }
+    - { role: php }
+    - { role: mysql }    
+ 
+  become: yes
+
+  vars_files: 
+  - ./group_vars/all.yaml
+
+
