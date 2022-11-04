@@ -17,6 +17,14 @@
 │       │   │   ├── install_apache.yaml
 │       │   │   └── main.yml
 │       │   └── templates
+|       ├── haproxy
+│       |   ├── files
+│       |   │   └── haproxy.cfg
+│       |   ├── handlers
+│       |   └── tasks
+│       |       ├── copy_cfg.yaml
+│       |       ├── install_haproxy.yaml
+│       |       └── main.yaml
 │       ├── mysql
 │       │   ├── files
 │       │   ├── handlers
