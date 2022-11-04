@@ -5,6 +5,7 @@
   hosts: apache
   roles:
     - { role: packages }
+    - { role: haproxy }
     - { role: apache }
     - { role: php }
     - { role: mysql }    
