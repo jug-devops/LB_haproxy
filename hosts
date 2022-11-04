@@ -1,0 +1,8 @@
+###### WEB SERVERS #########
+[apache]
+haproxy.jug.lb1 ansible_host=172.24.64.115 ansible_user=juug ansible_ssh_pass=linagoraa
+haproxy.jug.lb2 ansible_host=172.24.64.116 ansible_user=juug ansible_ssh_pass=linagoraa
+
+
+[haproxy_jug:vars] 
+ansible_python_interpreter=/usr/bin/python3

@@ -44,10 +44,15 @@
 
 To do 
 
--- Install haproxy (use xavki tutoriel)
+-- Install haproxy (use xavki tutoriel) ok
+
+-- Configuration de notre LB
+    -- FrontEnd:reverse proxy
+    -- BackEnd: ecoute/listner
 
 -- complete all tasks in playbook
 
 -- Finalise the load balancing between servers
 
 -- Creation de la page d'accueil du site devops-jug.com  (HTML & CSS)
+

@@ -1,0 +1,33 @@
+---
+- name: Install Packages 
+  apt:
+    pkg:
+      - sudo
+      - ufw
+      - apachetop
+      - nmon
+      - iftop
+      - iotop
+      - iperf
+      - mysql-common
+      - netcat
+      - nfs-common
+      - nmap
+      - vim
+      - locate
+      - curl
+      - pv
+      - wget
+      - python3
+      - python3-pip
+      - gnome-nettool
+      - git
+      - htop
+      - erlang-goldrush
+      - unzip
+      - apt-transport-https 
+      - lsb-release 
+      - ca-certificates 
+      - apache2-utils
+      - acl
+    update_cache: yes 
