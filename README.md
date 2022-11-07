@@ -58,6 +58,17 @@ To do
     -- FrontEnd:reverse proxy
     -- BackEnd: ecoute/listner
 
+Depuis le serveur 116 j'ai mis en place la config suivante sur haproxy: 
+```
+frontend myapp_front
+	bind *:8080
+	default_backend myapp_back
+
+backend myapp_back
+	server apache 172.24.64.115:8000
+	server python 172.24.64.190:5000
+```
+C'est seuelement en lançant des serveurs virtuels (python3 -m -m http.server $port) sur la machine 115 et 190 qie j'ai pu loadbalancer, autrement j'ai un 503 si je le fait sur le port 80 de 115.
 -- complete all tasks in playbook
 
 -- Finalise the load balancing between servers
