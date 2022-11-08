@@ -1,0 +1,5 @@
+---
+- name: install python-flask
+  apt:
+    name: python3-flask
+    state: present
