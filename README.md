@@ -64,5 +64,7 @@ To do
 
 -- Finalise the load balancing between servers  OK
 
+-- Configuration et accès à l'interface haproxy  OK
+
 -- Creation de la page d'accueil du site devops-jug.com  (HTML & CSS) ToDo
 
