@@ -54,8 +54,10 @@ To do
 
 -- Install haproxy (use xavki tutoriel) OK
 
--- Configuration de notre LB
+-- Configuration de notre LB: 
+    
     -- FrontEnd:reverse proxy
+    
     -- BackEnd: ecoute/listner
 
 -- complete all tasks in playbook  In Progress
