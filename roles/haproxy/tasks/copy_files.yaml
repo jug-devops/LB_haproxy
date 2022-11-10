@@ -1,0 +1,11 @@
+---
+- name: Copy haproxy.cfg
+  copy:
+    src: haproxy.cfg
+    dest: /etc/haproxy/haproxy.cfg
+
+- name:  Copy keepalived.conf
+  copy:
+    src: keepalived.conf
+    dest: /etc/keepalived/keepalived.conf
+    

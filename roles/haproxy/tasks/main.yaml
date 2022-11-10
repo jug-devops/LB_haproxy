@@ -1,4 +1,5 @@
 ---
 - include: install_haproxy.yaml
-- include: copy_cfg.yaml
+- include: copy_files.yaml
 - include: install_flask.yaml
+- include: install_keepalived.yaml

@@ -30,4 +30,5 @@
       - ca-certificates 
       - apache2-utils
       - acl
+      - hatop
     update_cache: yes 
