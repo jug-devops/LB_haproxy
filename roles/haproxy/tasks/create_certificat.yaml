@@ -1,0 +1,7 @@
+---
+- name: Create certificat
+	ansible.builtin.shell: openssl req -x509 -newkey rsa:2048 -keyout juug.key -out juug.crt -days 365 -nodes
+	args:
+		warn: no 
+
+
